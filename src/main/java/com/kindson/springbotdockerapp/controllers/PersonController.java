@@ -16,4 +16,9 @@ public class PersonController {
     public String getPersonById(Integer id) {
         return "personUsingParam";
     }
+
+    @GetMapping("/age")
+    public String getPersonByAge() {
+        return "aged person";
+    }
 }
