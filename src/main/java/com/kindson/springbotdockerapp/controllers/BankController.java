@@ -6,6 +6,8 @@ public class BankController {
     private String bankName;
     private String bankAddress;
     private String bankCity;
+    
+    // Getters and setters here
 
     
 }
