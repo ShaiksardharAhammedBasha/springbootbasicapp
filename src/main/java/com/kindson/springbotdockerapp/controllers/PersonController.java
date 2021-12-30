@@ -21,4 +21,9 @@ public class PersonController {
     public String getPersonByAge() {
         return "aged person";
     }
+
+    @GetMapping("/college")
+    public String getCollege() {
+        return "Spring Boot College Durga Soft Institute";
+    }
 }
